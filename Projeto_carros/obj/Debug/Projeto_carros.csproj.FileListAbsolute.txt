@@ -8,3 +8,4 @@ C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.csproj.CoreCompileInputs.cache
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.exe
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.pdb
+C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.Form2.resources

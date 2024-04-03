@@ -24,15 +24,28 @@ namespace Projeto_carros
             valcarros = Convert.ToDouble(txtvalcarros.Text);
             ncarro = Convert.ToDouble(txtncarro.Text);
             comissao = Convert.ToDouble(txtcomissao.Text);
-            saltotal = salfixo + (ncarro + comissao);
-            salmaisc = saltotal * 0.05;
+            saltotal = salfixo + ncarro + comissao;
+            salmaisc =  valcarros * 0.05 + comissao + salfixo;
             txtsaltotal.Text = saltotal.ToString();
             txtsalmaisc.Text = salmaisc.ToString();
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
         {
+            txtcomissao.Clear();
+            txtvalcarros.Clear();
+            txtsalario.Clear();
+            txtncarro.Clear();
+            txtsalmaisc.Clear();
+            txtsaltotal.Clear();
 
+        }
+
+        private void btnsair_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form2 tela1 = new Form2();
+            tela1.Show();
         }
     }
 }

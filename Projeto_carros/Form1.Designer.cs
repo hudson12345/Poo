@@ -159,6 +159,7 @@
             this.btnsair.TabIndex = 13;
             this.btnsair.Text = "Voltar";
             this.btnsair.UseVisualStyleBackColor = true;
+            this.btnsair.Click += new System.EventHandler(this.btnsair_Click);
             // 
             // btnlimpar
             // 

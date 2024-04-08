@@ -9,3 +9,14 @@ C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.exe
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.pdb
 C:\Users\2jd\Documents\Bruno_Queiroz_e_Hudson\Projeto_carros\Projeto_carros\obj\Debug\Projeto_carros.Form2.resources
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\bin\Debug\Projeto_carros.exe.config
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\bin\Debug\Projeto_carros.exe
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\bin\Debug\Projeto_carros.pdb
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.csproj.AssemblyReference.cache
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Properties.Resources.resources
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.csproj.GenerateResource.cache
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.csproj.CoreCompileInputs.cache
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.exe
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.pdb
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Menu.resources
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Carros.resources

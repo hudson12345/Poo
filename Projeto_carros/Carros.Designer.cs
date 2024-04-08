@@ -1,6 +1,6 @@
 ﻿namespace Projeto_carros
 {
-    partial class Form1
+    partial class Carros
     {
         /// <summary>
         /// Variável de designer necessária.

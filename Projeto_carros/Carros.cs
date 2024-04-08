@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_carros
 {
-    public partial class Form1 : Form
+    public partial class Carros : Form
     {
-        public Form1()
+        public Carros()
         {
             InitializeComponent();
         }
@@ -44,7 +44,7 @@ namespace Projeto_carros
         private void btnsair_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form2 tela1 = new Form2();
+            Menu tela1 = new Menu();
             tela1.Show();
         }
     }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Projeto_carros
 {
-    public partial class Form2 : Form
+    public partial class Menu : Form
     {
-        public Form2()
+        public Menu()
         {
             InitializeComponent();
         }
@@ -25,7 +25,7 @@ namespace Projeto_carros
         private void projetoCarrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 tela = new Form1();
+            Carros tela = new Carros();
             tela.Show();
         }
 

@@ -58,7 +58,7 @@
             this.txtpremiacao.Location = new System.Drawing.Point(435, 136);
             this.txtpremiacao.Name = "txtpremiacao";
             this.txtpremiacao.ReadOnly = true;
-            this.txtpremiacao.Size = new System.Drawing.Size(100, 20);
+            this.txtpremiacao.Size = new System.Drawing.Size(148, 20);
             this.txtpremiacao.TabIndex = 2;
             // 
             // lblresultado
@@ -88,6 +88,7 @@
             this.btnvoltar.TabIndex = 5;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // btnlimpar
             // 
@@ -97,6 +98,7 @@
             this.btnlimpar.TabIndex = 6;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // Nadador
             // 

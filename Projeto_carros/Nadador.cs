@@ -19,11 +19,31 @@ namespace Projeto_carros
 
         private void btnpremiacao_Click(object sender, EventArgs e)
         {
-            double distancia, premiacao;
+            double distancia;
             distancia = Convert.ToDouble(txtdistancia.Text);
-            if (distancia < 800) { 
-            premiacao = 5000
+            if (distancia < 800)
+            {
+                txtpremiacao.Text = "Seu  prêmio é de R$5.000";
             }
+            else if (distancia > 800 && distancia < 1500) {
+                txtpremiacao.Text = "Seu  prêmio é de R$10.000";
+            }
+            else {
+                txtpremiacao.Text = "Seu prêmio é de R$15.000";
+            }
+        }
+
+        private void btnvoltar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Menu tela1 = new Menu();
+            tela1.Show();
+        }
+
+        private void btnlimpar_Click(object sender, EventArgs e)
+        {
+            txtdistancia.Clear();
+            txtpremiacao.Clear();
         }
     }
 }

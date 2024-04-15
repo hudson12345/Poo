@@ -33,5 +33,12 @@ namespace Projeto_carros
         {
             Application.Exit();
         }
+
+        private void projetoNadadorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Nadador tela = new Nadador();
+            tela.Show();
+        }
     }
 }

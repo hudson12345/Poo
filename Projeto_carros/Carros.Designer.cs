@@ -131,6 +131,7 @@
             // 
             this.txtsaltotal.Location = new System.Drawing.Point(448, 60);
             this.txtsaltotal.Name = "txtsaltotal";
+            this.txtsaltotal.ReadOnly = true;
             this.txtsaltotal.Size = new System.Drawing.Size(100, 20);
             this.txtsaltotal.TabIndex = 10;
             // 
@@ -138,6 +139,7 @@
             // 
             this.txtsalmaisc.Location = new System.Drawing.Point(465, 107);
             this.txtsalmaisc.Name = "txtsalmaisc";
+            this.txtsalmaisc.ReadOnly = true;
             this.txtsalmaisc.Size = new System.Drawing.Size(100, 20);
             this.txtsalmaisc.TabIndex = 11;
             // 
@@ -171,7 +173,7 @@
             this.btnlimpar.UseVisualStyleBackColor = true;
             this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
-            // Form1
+            // Carros
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -191,7 +193,7 @@
             this.Controls.Add(this.lblcomissao);
             this.Controls.Add(this.txtsalario);
             this.Controls.Add(this.lblsalario);
-            this.Name = "Form1";
+            this.Name = "Carros";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

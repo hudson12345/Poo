@@ -20,3 +20,4 @@ C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carr
 C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.pdb
 C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Menu.resources
 C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Carros.resources
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Nadador.resources

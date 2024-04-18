@@ -48,7 +48,7 @@
             // lblsalario
             // 
             this.lblsalario.AutoSize = true;
-            this.lblsalario.Location = new System.Drawing.Point(68, 60);
+            this.lblsalario.Location = new System.Drawing.Point(35, 60);
             this.lblsalario.Name = "lblsalario";
             this.lblsalario.Size = new System.Drawing.Size(98, 13);
             this.lblsalario.TabIndex = 0;
@@ -56,15 +56,15 @@
             // 
             // txtsalario
             // 
-            this.txtsalario.Location = new System.Drawing.Point(172, 57);
+            this.txtsalario.Location = new System.Drawing.Point(139, 57);
             this.txtsalario.Name = "txtsalario";
-            this.txtsalario.Size = new System.Drawing.Size(100, 20);
+            this.txtsalario.Size = new System.Drawing.Size(140, 20);
             this.txtsalario.TabIndex = 1;
             // 
             // lblcomissao
             // 
             this.lblcomissao.AutoSize = true;
-            this.lblcomissao.Location = new System.Drawing.Point(28, 106);
+            this.lblcomissao.Location = new System.Drawing.Point(35, 106);
             this.lblcomissao.Name = "lblcomissao";
             this.lblcomissao.Size = new System.Drawing.Size(138, 13);
             this.lblcomissao.TabIndex = 2;
@@ -78,11 +78,12 @@
             this.lblncarros.Size = new System.Drawing.Size(131, 13);
             this.lblncarros.TabIndex = 3;
             this.lblncarros.Text = "Digite o número de carros:";
+            this.lblncarros.Click += new System.EventHandler(this.lblncarros_Click);
             // 
             // lblvalcarros
             // 
             this.lblvalcarros.AutoSize = true;
-            this.lblvalcarros.Location = new System.Drawing.Point(42, 198);
+            this.lblvalcarros.Location = new System.Drawing.Point(35, 198);
             this.lblvalcarros.Name = "lblvalcarros";
             this.lblvalcarros.Size = new System.Drawing.Size(124, 13);
             this.lblvalcarros.TabIndex = 4;
@@ -108,7 +109,7 @@
             // 
             // txtcomissao
             // 
-            this.txtcomissao.Location = new System.Drawing.Point(172, 103);
+            this.txtcomissao.Location = new System.Drawing.Point(179, 103);
             this.txtcomissao.Name = "txtcomissao";
             this.txtcomissao.Size = new System.Drawing.Size(100, 20);
             this.txtcomissao.TabIndex = 7;
@@ -117,14 +118,14 @@
             // 
             this.txtncarro.Location = new System.Drawing.Point(172, 151);
             this.txtncarro.Name = "txtncarro";
-            this.txtncarro.Size = new System.Drawing.Size(100, 20);
+            this.txtncarro.Size = new System.Drawing.Size(107, 20);
             this.txtncarro.TabIndex = 8;
             // 
             // txtvalcarros
             // 
-            this.txtvalcarros.Location = new System.Drawing.Point(172, 195);
+            this.txtvalcarros.Location = new System.Drawing.Point(165, 195);
             this.txtvalcarros.Name = "txtvalcarros";
-            this.txtvalcarros.Size = new System.Drawing.Size(100, 20);
+            this.txtvalcarros.Size = new System.Drawing.Size(114, 20);
             this.txtvalcarros.TabIndex = 9;
             // 
             // txtsaltotal
@@ -132,7 +133,7 @@
             this.txtsaltotal.Location = new System.Drawing.Point(448, 60);
             this.txtsaltotal.Name = "txtsaltotal";
             this.txtsaltotal.ReadOnly = true;
-            this.txtsaltotal.Size = new System.Drawing.Size(100, 20);
+            this.txtsaltotal.Size = new System.Drawing.Size(117, 20);
             this.txtsaltotal.TabIndex = 10;
             // 
             // txtsalmaisc
@@ -145,7 +146,7 @@
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(384, 151);
+            this.btncalcular.Location = new System.Drawing.Point(336, 149);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(75, 23);
             this.btncalcular.TabIndex = 12;
@@ -155,7 +156,7 @@
             // 
             // btnsair
             // 
-            this.btnsair.Location = new System.Drawing.Point(490, 171);
+            this.btnsair.Location = new System.Drawing.Point(465, 169);
             this.btnsair.Name = "btnsair";
             this.btnsair.Size = new System.Drawing.Size(75, 23);
             this.btnsair.TabIndex = 13;
@@ -165,7 +166,7 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(384, 195);
+            this.btnlimpar.Location = new System.Drawing.Point(336, 193);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(75, 23);
             this.btnlimpar.TabIndex = 14;

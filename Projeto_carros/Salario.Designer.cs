@@ -37,7 +37,7 @@
             this.txtsexo = new System.Windows.Forms.TextBox();
             this.txtidade = new System.Windows.Forms.TextBox();
             this.txtsalario = new System.Windows.Forms.TextBox();
-            this.txtsalarioliq = new System.Windows.Forms.TextBox();
+            this.txtsalliquido = new System.Windows.Forms.TextBox();
             this.btnlimpar = new System.Windows.Forms.Button();
             this.btnsalario = new System.Windows.Forms.Button();
             this.btnvoltar = new System.Windows.Forms.Button();
@@ -55,7 +55,7 @@
             // lblsexo
             // 
             this.lblsexo.AutoSize = true;
-            this.lblsexo.Location = new System.Drawing.Point(119, 134);
+            this.lblsexo.Location = new System.Drawing.Point(126, 134);
             this.lblsexo.Name = "lblsexo";
             this.lblsexo.Size = new System.Drawing.Size(91, 13);
             this.lblsexo.TabIndex = 1;
@@ -73,7 +73,7 @@
             // lblsalarioliq
             // 
             this.lblsalarioliq.AutoSize = true;
-            this.lblsalarioliq.Location = new System.Drawing.Point(146, 228);
+            this.lblsalarioliq.Location = new System.Drawing.Point(126, 232);
             this.lblsalarioliq.Name = "lblsalarioliq";
             this.lblsalarioliq.Size = new System.Drawing.Size(75, 13);
             this.lblsalarioliq.TabIndex = 3;
@@ -90,51 +90,54 @@
             // 
             // txtnome
             // 
-            this.txtnome.Location = new System.Drawing.Point(226, 93);
+            this.txtnome.Location = new System.Drawing.Point(223, 97);
             this.txtnome.Name = "txtnome";
             this.txtnome.Size = new System.Drawing.Size(100, 20);
             this.txtnome.TabIndex = 6;
             // 
             // txtsexo
             // 
-            this.txtsexo.Location = new System.Drawing.Point(227, 127);
+            this.txtsexo.Location = new System.Drawing.Point(223, 131);
             this.txtsexo.Name = "txtsexo";
             this.txtsexo.Size = new System.Drawing.Size(100, 20);
             this.txtsexo.TabIndex = 7;
             // 
             // txtidade
             // 
-            this.txtidade.Location = new System.Drawing.Point(473, 93);
+            this.txtidade.Location = new System.Drawing.Point(473, 97);
             this.txtidade.Name = "txtidade";
             this.txtidade.Size = new System.Drawing.Size(100, 20);
             this.txtidade.TabIndex = 8;
             // 
             // txtsalario
             // 
-            this.txtsalario.Location = new System.Drawing.Point(473, 127);
+            this.txtsalario.Location = new System.Drawing.Point(473, 131);
             this.txtsalario.Name = "txtsalario";
             this.txtsalario.Size = new System.Drawing.Size(100, 20);
             this.txtsalario.TabIndex = 9;
             // 
-            // txtsalarioliq
+            // txtsalliquido
             // 
-            this.txtsalarioliq.Location = new System.Drawing.Point(227, 221);
-            this.txtsalarioliq.Name = "txtsalarioliq";
-            this.txtsalarioliq.Size = new System.Drawing.Size(100, 20);
-            this.txtsalarioliq.TabIndex = 10;
+            this.txtsalliquido.Location = new System.Drawing.Point(207, 229);
+            this.txtsalliquido.Name = "txtsalliquido";
+            this.txtsalliquido.ReadOnly = true;
+            this.txtsalliquido.Size = new System.Drawing.Size(242, 20);
+            this.txtsalliquido.TabIndex = 10;
+            this.txtsalliquido.TextChanged += new System.EventHandler(this.txtsalarioliq_TextChanged);
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(498, 186);
+            this.btnlimpar.Location = new System.Drawing.Point(374, 186);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(75, 23);
             this.btnlimpar.TabIndex = 11;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnsalario
             // 
-            this.btnsalario.Location = new System.Drawing.Point(374, 186);
+            this.btnsalario.Location = new System.Drawing.Point(248, 186);
             this.btnsalario.Name = "btnsalario";
             this.btnsalario.Size = new System.Drawing.Size(75, 23);
             this.btnsalario.TabIndex = 12;
@@ -144,12 +147,13 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(435, 223);
+            this.btnvoltar.Location = new System.Drawing.Point(498, 227);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(75, 23);
             this.btnvoltar.TabIndex = 13;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // Salario
             // 
@@ -159,7 +163,7 @@
             this.Controls.Add(this.btnvoltar);
             this.Controls.Add(this.btnsalario);
             this.Controls.Add(this.btnlimpar);
-            this.Controls.Add(this.txtsalarioliq);
+            this.Controls.Add(this.txtsalliquido);
             this.Controls.Add(this.txtsalario);
             this.Controls.Add(this.txtidade);
             this.Controls.Add(this.txtsexo);
@@ -171,6 +175,7 @@
             this.Controls.Add(this.lblnome);
             this.Name = "Salario";
             this.Text = "Salario";
+            this.Load += new System.EventHandler(this.Salario_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -187,7 +192,7 @@
         private System.Windows.Forms.TextBox txtsexo;
         private System.Windows.Forms.TextBox txtidade;
         private System.Windows.Forms.TextBox txtsalario;
-        private System.Windows.Forms.TextBox txtsalarioliq;
+        private System.Windows.Forms.TextBox txtsalliquido;
         private System.Windows.Forms.Button btnlimpar;
         private System.Windows.Forms.Button btnsalario;
         private System.Windows.Forms.Button btnvoltar;

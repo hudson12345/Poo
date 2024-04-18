@@ -31,8 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.projetosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projetoCarrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.projetoNadadorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.projetoSalarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +52,8 @@
             // 
             this.projetosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.projetoCarrosToolStripMenuItem,
-            this.projetoNadadorToolStripMenuItem});
+            this.projetoNadadorToolStripMenuItem,
+            this.projetoSalarioToolStripMenuItem});
             this.projetosToolStripMenuItem.Name = "projetosToolStripMenuItem";
             this.projetosToolStripMenuItem.Size = new System.Drawing.Size(62, 20);
             this.projetosToolStripMenuItem.Text = "Projetos";
@@ -64,6 +66,13 @@
             this.projetoCarrosToolStripMenuItem.Text = "Projeto Carros";
             this.projetoCarrosToolStripMenuItem.Click += new System.EventHandler(this.projetoCarrosToolStripMenuItem_Click);
             // 
+            // projetoNadadorToolStripMenuItem
+            // 
+            this.projetoNadadorToolStripMenuItem.Name = "projetoNadadorToolStripMenuItem";
+            this.projetoNadadorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.projetoNadadorToolStripMenuItem.Text = "Projeto Nadador";
+            this.projetoNadadorToolStripMenuItem.Click += new System.EventHandler(this.projetoNadadorToolStripMenuItem_Click);
+            // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
@@ -71,12 +80,12 @@
             this.sairToolStripMenuItem.Text = "Sair";
             this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
             // 
-            // projetoNadadorToolStripMenuItem
+            // projetoSalarioToolStripMenuItem
             // 
-            this.projetoNadadorToolStripMenuItem.Name = "projetoNadadorToolStripMenuItem";
-            this.projetoNadadorToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.projetoNadadorToolStripMenuItem.Text = "Projeto Nadador";
-            this.projetoNadadorToolStripMenuItem.Click += new System.EventHandler(this.projetoNadadorToolStripMenuItem_Click);
+            this.projetoSalarioToolStripMenuItem.Name = "projetoSalarioToolStripMenuItem";
+            this.projetoSalarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.projetoSalarioToolStripMenuItem.Text = "Projeto Salario";
+            this.projetoSalarioToolStripMenuItem.Click += new System.EventHandler(this.projetoSalarioToolStripMenuItem_Click);
             // 
             // Menu
             // 
@@ -101,5 +110,6 @@
         private System.Windows.Forms.ToolStripMenuItem projetoCarrosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem projetoNadadorToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem projetoSalarioToolStripMenuItem;
     }
 }

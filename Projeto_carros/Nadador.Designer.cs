@@ -42,20 +42,20 @@
             this.lblnadador.AutoSize = true;
             this.lblnadador.Location = new System.Drawing.Point(129, 80);
             this.lblnadador.Name = "lblnadador";
-            this.lblnadador.Size = new System.Drawing.Size(285, 13);
+            this.lblnadador.Size = new System.Drawing.Size(206, 13);
             this.lblnadador.TabIndex = 0;
-            this.lblnadador.Text = "Qual a distância percorrida foram percorridos pelo nadador:";
+            this.lblnadador.Text = "Digite a distância percorrida pelo nadador:";
             // 
             // txtdistancia
             // 
-            this.txtdistancia.Location = new System.Drawing.Point(435, 77);
+            this.txtdistancia.Location = new System.Drawing.Point(341, 77);
             this.txtdistancia.Name = "txtdistancia";
             this.txtdistancia.Size = new System.Drawing.Size(100, 20);
             this.txtdistancia.TabIndex = 1;
             // 
             // txtpremiacao
             // 
-            this.txtpremiacao.Location = new System.Drawing.Point(435, 136);
+            this.txtpremiacao.Location = new System.Drawing.Point(253, 133);
             this.txtpremiacao.Name = "txtpremiacao";
             this.txtpremiacao.ReadOnly = true;
             this.txtpremiacao.Size = new System.Drawing.Size(148, 20);
@@ -64,7 +64,7 @@
             // lblresultado
             // 
             this.lblresultado.AutoSize = true;
-            this.lblresultado.Location = new System.Drawing.Point(250, 143);
+            this.lblresultado.Location = new System.Drawing.Point(129, 136);
             this.lblresultado.Name = "lblresultado";
             this.lblresultado.Size = new System.Drawing.Size(118, 13);
             this.lblresultado.TabIndex = 3;
@@ -72,7 +72,7 @@
             // 
             // btnpremiacao
             // 
-            this.btnpremiacao.Location = new System.Drawing.Point(293, 224);
+            this.btnpremiacao.Location = new System.Drawing.Point(260, 190);
             this.btnpremiacao.Name = "btnpremiacao";
             this.btnpremiacao.Size = new System.Drawing.Size(75, 23);
             this.btnpremiacao.TabIndex = 4;
@@ -82,7 +82,7 @@
             // 
             // btnvoltar
             // 
-            this.btnvoltar.Location = new System.Drawing.Point(362, 279);
+            this.btnvoltar.Location = new System.Drawing.Point(440, 136);
             this.btnvoltar.Name = "btnvoltar";
             this.btnvoltar.Size = new System.Drawing.Size(75, 23);
             this.btnvoltar.TabIndex = 5;
@@ -92,7 +92,7 @@
             // 
             // btnlimpar
             // 
-            this.btnlimpar.Location = new System.Drawing.Point(435, 224);
+            this.btnlimpar.Location = new System.Drawing.Point(366, 190);
             this.btnlimpar.Name = "btnlimpar";
             this.btnlimpar.Size = new System.Drawing.Size(75, 23);
             this.btnlimpar.TabIndex = 6;

@@ -25,11 +25,17 @@ namespace Projeto_carros
             {
                 txtpremiacao.Text = "Seu  prêmio é de R$5.000";
             }
-            else if (distancia > 800 && distancia < 1500) {
+            else if (distancia >= 800 && distancia <= 1500)
+            {
                 txtpremiacao.Text = "Seu  prêmio é de R$10.000";
             }
-            else {
+            else if (distancia > 1500)
+            {
                 txtpremiacao.Text = "Seu prêmio é de R$15.000";
+            }
+            else 
+            {
+                txtpremiacao.Text = "Valores inválidos";
             }
         }
 

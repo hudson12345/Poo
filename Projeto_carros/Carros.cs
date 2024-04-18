@@ -26,8 +26,8 @@ namespace Projeto_carros
             comissao = Convert.ToDouble(txtcomissao.Text);
             saltotal = salfixo + ncarro + comissao;
             salmaisc =  valcarros * 0.05 + comissao + salfixo;
-            txtsaltotal.Text = saltotal.ToString();
-            txtsalmaisc.Text = salmaisc.ToString();
+            txtsaltotal.Text = "R$" + saltotal;
+            txtsalmaisc.Text = "R$" + salmaisc;
         }
 
         private void btnlimpar_Click(object sender, EventArgs e)
@@ -46,6 +46,11 @@ namespace Projeto_carros
             this.Hide();
             Menu tela1 = new Menu();
             tela1.Show();
+        }
+
+        private void lblncarros_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

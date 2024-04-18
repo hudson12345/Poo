@@ -40,5 +40,12 @@ namespace Projeto_carros
             Nadador tela = new Nadador();
             tela.Show();
         }
+
+        private void projetoSalarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Salario tela = new Salario();
+            tela.Show();
+        }
     }
 }

@@ -47,5 +47,12 @@ namespace Projeto_carros
             Salario tela = new Salario();
             tela.Show();
         }
+
+        private void projetoFatoralToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Fatoral tela = new Fatoral();
+            tela.Show();
+        }
     }
 }

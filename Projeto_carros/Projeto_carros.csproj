@@ -52,6 +52,12 @@
     <Compile Include="Carros.Designer.cs">
       <DependentUpon>Carros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fatoral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fatoral.Designer.cs">
+      <DependentUpon>Fatoral.cs</DependentUpon>
+    </Compile>
     <Compile Include="Menu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +80,9 @@
     </Compile>
     <EmbeddedResource Include="Carros.resx">
       <DependentUpon>Carros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fatoral.resx">
+      <DependentUpon>Fatoral.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>

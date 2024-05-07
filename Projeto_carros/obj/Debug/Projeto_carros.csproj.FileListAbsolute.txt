@@ -34,3 +34,5 @@ C:\Users\Hudson\OneDrive\Área de Trabalho\atividades_POO\Projeto_carros\obj\Deb
 C:\Users\Hudson\OneDrive\Área de Trabalho\atividades_POO\Projeto_carros\obj\Debug\Projeto_carros.csproj.CoreCompileInputs.cache
 C:\Users\Hudson\OneDrive\Área de Trabalho\atividades_POO\Projeto_carros\obj\Debug\Projeto_carros.exe
 C:\Users\Hudson\OneDrive\Área de Trabalho\atividades_POO\Projeto_carros\obj\Debug\Projeto_carros.pdb
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Fatoral.resources
+C:\Users\2jd\Documents\Bruno Queiroz e Hudson\POO_Bruno_Q._e_Hudson\Projeto_carros\obj\Debug\Projeto_carros.Salario.resources

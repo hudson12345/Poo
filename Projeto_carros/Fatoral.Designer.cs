@@ -57,6 +57,7 @@
             this.btndoW.TabIndex = 1;
             this.btndoW.Text = "Do...While";
             this.btndoW.UseVisualStyleBackColor = true;
+            this.btndoW.Click += new System.EventHandler(this.btndoW_Click);
             // 
             // btnfor
             // 
@@ -66,6 +67,7 @@
             this.btnfor.TabIndex = 2;
             this.btnfor.Text = "For";
             this.btnfor.UseVisualStyleBackColor = true;
+            this.btnfor.Click += new System.EventHandler(this.btnfor_Click);
             // 
             // btnlimpar
             // 
@@ -75,6 +77,7 @@
             this.btnlimpar.TabIndex = 3;
             this.btnlimpar.Text = "Limpar";
             this.btnlimpar.UseVisualStyleBackColor = true;
+            this.btnlimpar.Click += new System.EventHandler(this.btnlimpar_Click);
             // 
             // btnvoltar
             // 
@@ -84,6 +87,7 @@
             this.btnvoltar.TabIndex = 4;
             this.btnvoltar.Text = "Voltar";
             this.btnvoltar.UseVisualStyleBackColor = true;
+            this.btnvoltar.Click += new System.EventHandler(this.btnvoltar_Click);
             // 
             // lblnumero
             // 
